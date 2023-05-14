@@ -40,7 +40,6 @@ const searchByKey = (fruits, key, value) => {
 questionNo3.addEventListener("click", (e) => {
   const fruitResult = searchByName(fruitsObj, "Apple");
   const answers = document.createDocumentFragment();
-  console.log(fruitResult);
 
   const idElement = document.createElement("li");
   idElement.textContent = `id: ${fruitResult.id}`;
