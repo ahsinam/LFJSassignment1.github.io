@@ -9,6 +9,8 @@ const transformFunc = (numbers, n) => {
   return result;
 };
 
+const numResult = transformFunc(numbers, 6);
+
 questionNo4.addEventListener("click", (e) => {
   const numResult = transformFunc(numbers, 6);
   const answer = document.createDocumentFragment();
